@@ -13,6 +13,11 @@
   line-height: 2.2em;
   font-weight: 700;
 
+  border: 1px solid black;
+  background: black;
+  border-radius: 0.5em;
+  padding: 0.5em;
+
   color: rgb(218, 210, 210);
 }
 span {
