@@ -1,0 +1,34 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+
+  background: var(--bg-initial);
+}
+.main-txt {
+  font-size: 2em;
+  line-height: 2.2em;
+  font-weight: 700;
+
+  color: rgb(218, 210, 210);
+}
+span {
+  color: rgb(159, 90, 224);
+}
+#btn {
+  text-transform: uppercase;
+  width: max-content;
+
+  padding: 0.5em 1em;
+  border: 2px solid rgba(34, 34, 126, 0.89);
+  border-radius: 0.3em;
+
+  font-size: 1.2em;
+  font-weight: 500;
+
+  color: black;
+  background: transparent;
+}
