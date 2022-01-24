@@ -1,11 +1,8 @@
 const bgColors = ["red", "yellow", "green", "blue"];
 
-let n = 0;
 let i = 0;
-for (i in bgColors) {
-  document.getElementById("colorName").innerHTML = bgColors[n];
-}
-function changeColor() {
-  document.body.style.background = bgColors[n];
-  ++n;
+function changeBackground() {
+  document.getElementById("colorName").innerHTML = bgColors[i];
+  document.body.style.background = bgColors[i];
+  i > bgColors.length - 2 ? (i = 0) : i++;
 }
